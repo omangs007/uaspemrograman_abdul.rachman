@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+  }
+  body {
+      min-height: 100vh;
+      background-image: url("../img/Freedom.jpg"); /* Gantilah dengan lokasi file gambar Anda */
+      background-repeat: no-repeat; /*Menghindari pengulangan gambar*/ 
+      background-size:cover; /* Mengatur gambar agar sesuai dengan ukuran layar */
+      background-position: center;
+      position: relative;
+      
+    }
+  a:link {
+    font-size: 20px;
+    text-align: justify;
+    justify-content: left;
+    display: block;
+    padding: 20px;
+    color: white;
+    padding-left: 2px;
+    display: inline-block;
+    transition: transform 0.3s ease-out;
+  }
+  
+  h1 {
+          text-align: center;
+          justify-content: center;
+          font-size: 48px;
+          animation: glitter 2s infinite;
+          display: flex;
+          padding: 10px; /* Tambahkan padding untuk memperjelas efek kilap */
+        }
+  
+  ul{
+      font-size: 20px;
+      text-align: justify;
+      display: block;
+      padding: 20px;
+      padding-left: 30px;
+      color: aliceblue;
+      display: inline-block;
+      transition: transform 0.3s ease-out;
+  }
+  
+  ul:hover {
+      animation: moveText 0.3s forwards;
+    }
+  
+    @keyframes glitter {
+      0% { color: red; }
+      50% { color: yellow; }
+      100% { color:greenyellow; }
+     
+    }
+  
+    @keyframes move {
+    0% { transform: translateX(0); }
+    50% { transform: translateX(100px); }
+    100% { transform: translateX(0); }
+  }
+  @keyframes moveText {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(20px); }
+  }
+  
+  @media screen and (max-width:768px){
+  
+    .hero .content body{
+      margin-top: 3rem;
+      font-size: 1.5rem;
+    }
+  
+    .hero .content h1 {
+  
+      font-size: 1.4rem;
+    } 
+   
+    .hero .content ul {
+      font-size: 1.2rem;
+    }
+  } 
+  
+  
+  
+  
+  
+  
+      
+    

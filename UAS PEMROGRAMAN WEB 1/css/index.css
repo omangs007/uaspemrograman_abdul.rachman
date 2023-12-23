@@ -1,0 +1,25 @@
+.kontak {
+    font-size: 3vh;
+    color: red;
+    text-align: left;
+    justify-content: left;
+
+}
+
+
+
+.navbar-brand {
+
+    img {
+        max-height: 100px;
+    }
+
+    color: white;
+    font-size: 12px;
+}
+
+.nav-link {
+
+    color: white;
+    font-size: 20px;
+}

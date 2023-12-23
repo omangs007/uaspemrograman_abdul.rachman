@@ -1,0 +1,28 @@
+.dialog {
+    display: none; /* Sembunyikan dialog box secara default */
+    position: fixed; /* Posisikan dialog box secara fixed */
+    z-index: 1; /* Tempatkan dialog box di atas elemen lain */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto; /* Tambahkan scrollbar jika konten melebihi ukuran dialog box */
+    background-color: rgba(0, 0, 0, 0.4); /* Background semi-transparan */
+  }
+  
+  .dialog-content {
+    background-color: #fff;
+    margin: 15% auto; /* Posisikan konten di tengah secara horizontal */
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%; /* Atur lebar konten */
+  }
+  
+  #close-dialog {
+    background-color: #f44336; /* Warna merah untuk tombol tutup */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
